@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - MailCollector</title>
+    <style>
+        :root {
+            --primary-color: #0073e6;
+            --secondary-color: #f8f9fa;
+            --text-color: #333;
+            --light-gray: #ddd;
+            --border-radius: 8px;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--secondary-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #005bb5);
+            padding: 30px 20px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 4px 6px var(--shadow-color);
+        }
+
+        header img {
+            max-height: 80px;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        section {
+            margin: 20px auto;
+            padding: 25px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px var(--shadow-color);
+            border-radius: var(--border-radius);
+            max-width: 900px;
+        }
+
+        h2, h3 {
+            color: var(--primary-color);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background: var(--light-gray);
+            font-size: 0.9rem;
+            color: #555;
+            border-top: 2px solid var(--primary-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            max-height: 300px;
+            width: 180px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" class="logo" alt="Logo de MailCollector">
+    <h1>Política de Privacidad</h1>
+</header>
+
+<section>
+    <h2>Fecha de entrada en vigor: 10 Enero de 2025</h2>
+    <p><strong>MailCollector</strong> respeta tu privacidad y está comprometido a proteger tus datos personales. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos tu información cuando utilizas nuestra extensión para navegador.</p>
+
+    <h3>1. Información que recopilamos</h3>
+    <ul>
+        <li>Direcciones de correo electrónico recopiladas de páginas web según tus instrucciones.</li>
+        <li>Información no personal relacionada con el uso de la extensión (por ejemplo, frecuencia de uso).</li>
+        <li>Datos almacenados localmente en tu navegador, como configuraciones y listas de contactos.</li>
+    </ul>
+
+    <h3>2. Cómo usamos tu información</h3>
+    <p>La información recopilada es utilizada para:</p>
+    <ul>
+        <li>Automatizar la recopilación de contactos para campañas de marketing y gestión de datos.</li>
+        <li>Guardar tus configuraciones y preferencias para mejorar tu experiencia de usuario.</li>
+        <li>Ofrecer funcionalidades específicas relacionadas con la extracción de datos de contacto de páginas web.</li>
+    </ul>
+    <p>MailCollector <strong>no</strong> vende, comparte ni divulga tu información personal con terceros sin tu consentimiento expreso, excepto si es requerido por la ley.</p>
+
+    <h3>3. Seguridad de los datos</h3>
+    <p>Nos esforzamos por proteger tus datos utilizando medidas de seguridad estándar de la industria para evitar el acceso no autorizado o el uso indebido de tu información.</p>
+
+    <h3>4. Permisos solicitados</h3>
+    <p>Nuestra extensión solicita los siguientes permisos para operar:</p>
+    <ul>
+        <li><strong>activeTab</strong>: para interactuar con la pestaña activa cuando el usuario inicia la acción de extracción de contactos.</li>
+        <li><strong>storage</strong>: para guardar configuraciones y datos localmente en tu navegador.</li>
+        <li><strong>scripting</strong> y <strong>tabs</strong>: para automatizar la recopilación de correos y mejorar la experiencia del usuario.</li>
+        <li><strong>Permiso de host</strong>: para acceder solo a las páginas web que tú selecciones para extraer datos.</li>
+    </ul>
+
+    <h3>5. Control del usuario</h3>
+    <p>MailCollector solo actúa cuando el usuario lo solicita y no realiza acciones automáticas sin tu intervención directa. Puedes desactivar o eliminar la extensión en cualquier momento desde la configuración de tu navegador.</p>
+
+    <h3>6. Cambios en esta Política de Privacidad</h3>
+    <p>Podemos actualizar esta política periódicamente para reflejar cambios en nuestras prácticas o por razones legales. Notificaremos cualquier cambio importante a través de nuestra página oficial.</p>
+
+    <h3>7. Contacto</h3>
+    <p>Si tienes preguntas o preocupaciones sobre esta Política de Privacidad, por favor, contáctanos en:  
+        <strong>darlingf1998@gmail.com</strong>
+    </p>
+</section>
+
+<footer>
+    &copy; <span id="year"></span> MailCollector. Todos los derechos reservados.
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
